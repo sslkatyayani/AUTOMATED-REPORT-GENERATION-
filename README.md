@@ -54,4 +54,10 @@ pip install pandas matplotlib fpdf
 5. Run the script:
 python report_generator.py
 
+## OUTPUT
+![Image](https://github.com/user-attachments/assets/c987b4e8-3929-46ce-993a-b5cfa83f9d84)
+
+![Image](https://github.com/user-attachments/assets/6784f385-5b42-4780-9932-1195cf718797)
+
+![Image](https://github.com/user-attachments/assets/87117c19-a756-411d-a034-28d2df4cd873)
 
