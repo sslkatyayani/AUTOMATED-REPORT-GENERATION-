@@ -1,10 +1,15 @@
 # AUTOMATED-REPORT-GENERATION
 
 *COMPANY:* CodTech IT Solutions  
+
 *NAME:* PEDAPROLU S S L KATYAYANI
+
 *INTERN ID:* CTO6WS178
+
 *DOMAIN:* Python Programming 
+
 *DURATION:* 6 Weeks  
+
 *MENTOR:* Neela Santosh
 
 ## About Project
