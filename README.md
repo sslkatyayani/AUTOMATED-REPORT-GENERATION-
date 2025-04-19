@@ -46,18 +46,31 @@ This application improves productivity by eliminating manual reporting tasks and
 
 1. Clone the repository.
 2. Navigate to the project directory.
-3. Install dependencies:
+3. Install dependencies
+4. pip install pandas matplotlib fpdf
+5. Make sure your CSV file is located in the data/ folder.
+6. Run the script:python report_generator.py
 
-```bash
-pip install pandas matplotlib fpdf
-4. Make sure your CSV file is located in the data/ folder.
-5. Run the script:
-python report_generator.py
+---
 
-## OUTPUT
-![Image](https://github.com/user-attachments/assets/c987b4e8-3929-46ce-993a-b5cfa83f9d84)
+## Output
 
-![Image](https://github.com/user-attachments/assets/6784f385-5b42-4780-9932-1195cf718797)
+After successfully running the script, the following output files are generated in the reports/ directory:
 
-![Image](https://github.com/user-attachments/assets/87117c19-a756-411d-a034-28d2df4cd873)
+### monthly_sales_report.pdf
+A professionally formatted PDF document that includes:
+- Title and summary (total sales, top product)
+- A clean bar chart showing product-wise sales
+- Neatly structured layout using the FPDF library
+
+### sales_chart.png
+A bar chart image automatically created using matplotlib, visualizing sales by product category. This chart is embedded inside the PDF report.
+
+### Sample Output Previews
+
+![Monthly Report Cover](https://github.com/user-attachments/assets/c987b4e8-3929-46ce-993a-b5cfa83f9d84)
+
+![Sales Chart](https://github.com/user-attachments/assets/6784f385-5b42-4780-9932-1195cf718797)
+
+![Report Content](https://github.com/user-attachments/assets/87117c19-a756-411d-a034-28d2df4cd873)
 
